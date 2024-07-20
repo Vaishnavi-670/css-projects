@@ -165,21 +165,21 @@ body{
 #text-bottom{
     height: 40%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    /* background-color: rgb(0, 0, 0); */
+    color: rgba(255, 255, 255, 0.914);
     bottom: 0;
     position: absolute;
 }
 #text-bottom h5{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     padding: 5px;
     margin-left: 5px;
 }
 #text-bottom button{
    margin: 5px ;
    border-radius: 20px;
-   color: white;
+   color: rgba(255, 255, 255, 0.682);
    margin-left: 10px;
    padding-left: 5px;
    padding-right: 5px;
