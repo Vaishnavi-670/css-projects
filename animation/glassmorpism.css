@@ -91,22 +91,22 @@ nav {
   z-index: 1000;
 }
 
-.title > p {
+.title>p {
   margin: 0;
   line-height: 10rem;
   width: auto;
 }
 
-.title > p:nth-child(1){
+.title>p:nth-child(1) {
   align-self: flex-start;
 }
 
-.title > p:nth-child(2){
+.title>p:nth-child(2) {
   color: var(--primary);
   align-self: flex-end;
 }
 
-.title > p:nth-child(3){
+.title>p:nth-child(3) {
   align-self: flex-end;
 }
 
@@ -162,11 +162,11 @@ span {
   transition: all 0.2s ease;
 }
 
-.button:hover > span {
+.button:hover>span {
   opacity: 60%;
 }
 
-.button:hover > button {
+.button:hover>button {
   transform: translateY(5px);
 }
 
@@ -180,13 +180,13 @@ span {
   right: 11%;
 }
 
-.button.sec > button {
+.button.sec>button {
   background-color: var(--accentBg);
   box-shadow: 0px -3px 15px 0px var(--accentHi) inset;
   color: var(--accentFg);
 }
 
-.button.sec > span {
+.button.sec>span {
   background-color: var(--accentHi);
 }
 
@@ -195,13 +195,13 @@ span {
   left: 15%;
 }
 
-.button.third > button {
+.button.third>button {
   background-color: var(--secondaryBg);
   box-shadow: 0px -3px 15px 0px var(--secondary) inset;
   color: var(--secondaryFg);
 }
 
-.button.third > span {
+.button.third>span {
   background-color: var(--secondaryHi);
 }
 
@@ -223,30 +223,28 @@ span {
 }
 
 
-
-
 @media screen and (max-width: 1000px) {
   .title {
     font-size: 4rem;
     line-height: 1.2;
   }
-  
-  .title > p {
+
+  .title>p {
     line-height: 5rem;
     letter-spacing: -0.3rem;
   }
-  
-  nav > :not(.sitename, .material-icons) {
+
+  nav> :not(.sitename, .material-icons) {
     display: none;
   }
-  
+
   nav {
     justify-content: space-between;
   }
-  
+
   .material-icons {
     display: flex;
     align-items: center;
   }
-  
+
 }
