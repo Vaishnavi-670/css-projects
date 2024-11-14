@@ -229,7 +229,6 @@ span {
     line-height: 5rem;
     letter-spacing: -0.3rem;
   }
-
   nav> :not(.sitename, .material-icons) {
     display: none;
   }
