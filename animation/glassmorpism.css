@@ -169,7 +169,6 @@ span {
 .button:hover>button {
   transform: translateY(5px);
 }
-
 .button.first {
   top: 12%;
   right: 20%;
