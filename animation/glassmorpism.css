@@ -94,7 +94,6 @@ nav {
   line-height: 10rem;
   width: auto;
 }
-
 .title>p:nth-child(1) {
   align-self: flex-start;
 }
