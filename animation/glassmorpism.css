@@ -97,7 +97,6 @@ nav {
 .title>p:nth-child(1) {
   align-self: flex-start;
 }
-
 .title>p:nth-child(2) {
   color: var(--primary);
   align-self: flex-end;
