@@ -101,7 +101,6 @@ nav {
   color: var(--primary);
   align-self: flex-end;
 }
-
 .title>p:nth-child(3) {
   align-self: flex-end;
 }
