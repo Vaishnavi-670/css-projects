@@ -154,6 +154,7 @@ span {
 .button:hover>span {
   opacity: 60%;
 }
+
 .button:hover>button {
   transform: translateY(5px);
 }
