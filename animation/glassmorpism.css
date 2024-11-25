@@ -215,11 +215,12 @@ span {
     font-size: 4rem;
     line-height: 1.2;
   }
-  
+
   .title>p {
     line-height: 5rem;
     letter-spacing: -0.3rem;
   }
+  
   nav> :not(.sitename, .material-icons) {
     display: none;
   }
