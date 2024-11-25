@@ -193,6 +193,7 @@ span {
 .button.third>span {
   background-color: var(--secondaryHi);
 }
+
 .top-right {
   position: absolute;
   top: 0;
