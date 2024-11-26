@@ -224,10 +224,11 @@ span {
   nav> :not(.sitename, .material-icons) {
     display: none;
   }
-  
+
   nav {
     justify-content: space-between;
   }
+  
   .material-icons {
     display: flex;
     align-items: center;
